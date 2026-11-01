@@ -64,6 +64,16 @@ icoolkj-expert/
 │   ├── lingqi-story-reviewer/            # 灵启・故事审校官
 │   └── lingqi-worldbuilding-architect/   # 灵启・世界观架构师
 ├── skills/                 # 10 个 Skill 能力包
+│   ├── ai-character-environment-asset-design/     # 角色与场景资产设计
+│   ├── cinematic-storyboard-design/               # 影视分镜脚本设计
+│   ├── ip-commercial-operations-planning/         # IP商业化运营策划
+│   ├── long-form-novel-writing/                   # 长篇小说创作
+│   ├── novel-continuity-and-continuation/         # 小说剧情续写与连贯性维护
+│   ├── novel-to-short-drama/                      # 小说转短剧改编
+│   ├── original-ip-project-planning/              # 原创IP项目策划
+│   ├── short-drama-script-standardization/        # 短剧剧本标准化处理
+│   ├── story-logic-and-continuity-review/         # 故事逻辑审校
+│   └── story-worldbuilding/                       # 世界观设定搭建
 ├── assets/
 │   └── avatars/            # 专家头像原图、绘图提示词
 ├── docs/                   # 工作流、规范文档

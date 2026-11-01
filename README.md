@@ -1,3 +1,8 @@
+![灵启逸梦品牌VI](assets/lingqi-brand-v1.png)
+# icoolkj-expert
+灵启逸梦 · AI创艺坊专家工作室
+> 面向网文、短剧IP全链路创作的 WorkBuddy 专家 & Skill 能力仓库
+
 # icoolkj-expert
 灵启逸梦 · AI创艺坊专家工作室
 > 面向网文、短剧IP全链路创作的 WorkBuddy 专家 & Skill 能力仓库

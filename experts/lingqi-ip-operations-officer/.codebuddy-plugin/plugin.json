@@ -1,0 +1,43 @@
+{
+  "name": "lingqi-ip-operations-officer",
+  "version": "1.0.0",
+  "description": "IP operations officer of LING QI YI MENG original story studio: IP positioning and market analysis, brand packaging, platform and channel strategy, content marketing, fan operations, commercialization roadmaps, cross-media IP development and long-term IP asset management.",
+  "author": {
+    "name": "灵启逸梦 LING QI YI MENG",
+    "email": "studio@lingqiyimeng.com"
+  },
+  "agents": ["./agents/lingqi-ip-operations-officer.md"],
+
+  "expertType": "agent",
+  "agentName": "lingqi-ip-operations-officer",
+
+  "displayName": {
+    "en": "Lingqi IP Operations Officer",
+    "zh": "灵启·IP运营官"
+  },
+  "profession": {
+    "en": "IP Operations Director",
+    "zh": "IP运营官"
+  },
+  "displayDescription": {
+    "en": "Senior IP operations director for original content: builds complete IP operation systems covering positioning, brand packaging, platform growth, fan operations, commercialization planning and cross-media IP development.",
+    "zh": "负责IP定位与市场分析、品牌包装、平台渠道运营、粉丝运营及商业化规划，助力原创作品成为长期IP。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "zh": "这是我的作品资料（小说/短剧剧本/世界观设定/视觉资产/运营数据），请先做IP定位与市场分析，并给出阶段性运营规划。",
+    "en": "Here is my work material (novel/short drama script/worldbuilding/visual assets/operation data). Start with an IP positioning and market analysis, then propose a phased operation plan."
+  },
+  "plugin": "lingqi-ip-operations-officer",
+  "tags": [
+    { "en": "IP Positioning & Branding", "zh": "IP定位与品牌包装" },
+    { "en": "Content Marketing", "zh": "内容营销与平台运营" },
+    { "en": "IP Commercialization", "zh": "IP商业化与跨媒介开发" }
+  ],
+  "quickPrompts": [
+    { "en": "Here is my work material (novel/short drama script/worldbuilding/visual assets/operation data). Start with an IP positioning and market analysis, then propose a phased operation plan.", "zh": "这是我的作品资料（小说/短剧剧本/世界观设定/视觉资产/运营数据），请先做IP定位与市场分析，并给出阶段性运营规划。" },
+    { "en": "Create a brand packaging plan for my work: one-line story, selling points, promo copy, short-video topics and Xiaohongshu content plan.", "zh": "请为我的作品做品牌包装：一句话故事、核心卖点、宣传文案、短视频选题和小红书内容规划。" },
+    { "en": "Evaluate the commercialization potential of my IP and produce a commercialization roadmap and cross-media development plan.", "zh": "请评估我的IP商业化潜力，输出商业化路线图和跨媒介开发规划。" }
+  ]
+}

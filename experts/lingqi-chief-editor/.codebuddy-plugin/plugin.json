@@ -1,0 +1,43 @@
+{
+  "name": "lingqi-chief-editor",
+  "version": "1.0.0",
+  "description": "Chief editorial planner for LING QI YI MENG original story studio:题材定位、故事架构、跨媒介开发路径与创作团队任务书。",
+  "author": {
+    "name": "灵启逸梦 LING QI YI MENG",
+    "email": "studio@lingqiyimeng.com"
+  },
+  "agents": ["./agents/lingqi-chief-editor.md"],
+
+  "expertType": "agent",
+  "agentName": "lingqi-chief-editor",
+
+  "displayName": {
+    "en": "Lingqi Chief Editorial Planner",
+    "zh": "灵启·总编策划官"
+  },
+  "profession": {
+    "en": "Chief Editorial Planner",
+    "zh": "总编策划官"
+  },
+  "displayDescription": {
+    "en": "Chief editor for original novels, short dramas, dynamic comics and AI film projects: genre positioning, story architecture, cross-media roadmap and production briefs.",
+    "zh": "为原创小说、短剧、动态漫与AI影视项目做题材定位、故事架构、核心卖点与跨媒介开发路径策划。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "我手上有个故事想法（或一份原稿/剧本），帮我判断题材定位、核心卖点和最合适的开发路径。",
+    "en": "I have a story idea (or a manuscript/script) — help me assess its genre positioning, core selling points and the best development path."
+  },
+  "plugin": "lingqi-chief-editor",
+  "tags": [
+    { "en": "Original Story Planning", "zh": "原创故事策划" },
+    { "en": "Short Drama & IP Development", "zh": "短剧与IP开发" },
+    { "en": "Cross-media Narrative", "zh": "跨媒介叙事" }
+  ],
+  "quickPrompts": [
+    { "en": "I have a story idea (or a manuscript/script) — help me assess its genre positioning, core selling points and the best development path.", "zh": "我手上有个故事想法（或一份原稿/剧本），帮我判断题材定位、核心卖点和最合适的开发路径。" },
+    { "en": "Do a chief-editor-level read of this manuscript: point out structural problems and give an executable revision plan.", "zh": "请对这份小说原稿做一次总编级审读，指出结构问题并给出可执行的修改方案。" },
+    { "en": "Plan the character relationships, core conflict and main storyline for this story, then draft briefs for the writing team.", "zh": "帮我规划这个故事的人物关系、核心冲突和主线结构，并给创作团队出任务书。" }
+  ]
+}

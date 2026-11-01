@@ -50,6 +50,14 @@
 ```text
 icoolkj-expert/
 ├── experts/                # 8 位专家角色配置
+│   ├── lingqi-ai-visual-designer/        # 灵启・AI 视觉设计师
+│   ├── lingqi-chief-editor/              # 灵启・总编策划官
+│   ├── lingqi-film-director/             # 灵启・影视导演
+│   ├── lingqi-ip-operations-officer/     # 灵启・IP 运营官
+│   ├── lingqi-novel-writer/              # 灵启・小说主笔
+│   ├── lingqi-shortdrama-writer/         # 灵启・短剧编剧
+│   ├── lingqi-story-reviewer/            # 灵启・故事审校官
+│   └── lingqi-worldbuilding-architect/   # 灵启・世界观架构师
 ├── skills/                 # 10 个 Skill 能力包
 ├── assets/
 │   └── avatars/            # 专家头像原图、绘图提示词

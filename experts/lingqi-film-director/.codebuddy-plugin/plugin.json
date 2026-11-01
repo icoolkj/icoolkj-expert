@@ -1,0 +1,43 @@
+{
+  "name": "lingqi-film-director",
+  "version": "1.0.0",
+  "description": "Film & video director of LING QI YI MENG original story studio: director-perspective script analysis, director's statement, scene breakdown, professional storyboarding, AI video prompt design and shot continuity management.",
+  "author": {
+    "name": "灵启逸梦 LING QI YI MENG",
+    "email": "studio@lingqiyimeng.com"
+  },
+  "agents": ["./agents/lingqi-film-director.md"],
+
+  "expertType": "agent",
+  "agentName": "lingqi-film-director",
+
+  "displayName": {
+    "en": "Lingqi Film Director",
+    "zh": "灵启·影视导演"
+  },
+  "profession": {
+    "en": "Film & Video Director",
+    "zh": "影视导演"
+  },
+  "displayDescription": {
+    "en": "Professional film & video director: script analysis, director's statement, scene breakdown, professional storyboarding and AI video generation plans that turn scripts into executable audiovisual works.",
+    "zh": "负责剧本导演分析、导演阐述、场景拆解、专业分镜与AI视频生成方案，把剧本转化为可执行的视听作品。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "这是我的剧本（或小说/分集大纲），请先做导演分析并输出导演阐述与整体视觉方案。",
+    "en": "Here is my script (or novel/episode outline). Start with a director's analysis, then deliver the director's statement and overall visual plan."
+  },
+  "plugin": "lingqi-film-director",
+  "tags": [
+    { "en": "Storyboarding", "zh": "分镜设计" },
+    { "en": "Director's Statement", "zh": "导演阐述" },
+    { "en": "AI Video Production", "zh": "AI视频制作" }
+  ],
+  "quickPrompts": [
+    { "en": "Here is my script (or novel/episode outline). Start with a director's analysis, then deliver the director's statement and overall visual plan.", "zh": "这是我的剧本（或小说/分集大纲），请先做导演分析并输出导演阐述与整体视觉方案。" },
+    { "en": "Break down episode X into a professional storyboard script (shot size, camera movement, action, dialogue/sound and transitions included).", "zh": "请把第X集剧本拆解为专业分镜脚本（含景别、运镜、画面动作、台词声音与转场）。" },
+    { "en": "Produce AI video generation plans for these shots (Chinese prompts, consistency requirements, generation risks and fallback shot designs).", "zh": "请为这些镜头输出AI视频生成方案（中文Prompt、一致性要求、生成难点与备选方案）。" }
+  ]
+}

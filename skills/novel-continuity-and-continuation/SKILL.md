@@ -2,6 +2,11 @@
 name: novel-continuity-and-continuation
 description: 小说章节续写与连续性管理 Skill。用于长篇小说前文解析、章节事实提取、创作状态恢复、人物状态追踪、时间线管理、章节无缝续写、伏笔追踪、设定一致性检查、记忆档案更新和下一章承接。适用于已经拥有小说正文、需要持续连载或多轮续写的小说项目。当用户提出继续写小说、接着上一章写、写下一章、检查前后矛盾、整理小说进度、恢复创作状态、查询人物状态、追踪伏笔、检查时间线、更新小说记忆或衔接剧情时使用。
 agent_created: true
+version: 1.0.0
+display_name: 小说章节续写与连续性
+display_name_en: Novel Continuity and Continuation
+description_zh: 小说章节续写与连续性管理 Skill。用于长篇小说前文解析、章节事实提取、创作状态恢复、人物状态追踪、时间线管理、章节无缝续写、伏笔追踪、设定一致性检查、记忆档案更新和下一章承接。适用于已经拥有小说正文、需要持续连载或多轮续写的小说项目。当用户提出继续写小说、接着上一章写、写下一章、检查前后矛盾、整理小说进度、恢复创作状态、查询人物状态、追踪伏笔、检查时间线、更新小说记忆或衔接剧情时使用。
+description_en: A skill for novel chapter continuation and continuity management. Covers analysis of previous text, chapter fact extraction, creation state recovery, character state tracking, timeline management, seamless chapter continuation, foreshadowing tracking, setting consistency checks, memory archive updates and next-chapter transitions. Designed for novel projects with existing prose that require ongoing serialization or multi-round continuation. Use when the user asks to continue a novel, write the next chapter, check for contradictions, organize writing progress, restore creation state, query character states, track foreshadowing, check timelines, or update novel memory.
 ---
 
 # S04｜小说章节续写与连续性 Skill

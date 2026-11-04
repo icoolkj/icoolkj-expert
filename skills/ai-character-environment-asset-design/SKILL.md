@@ -2,6 +2,11 @@
 name: ai-character-environment-asset-design
 description: AI角色与场景资产设计 Skill。用于影视、短剧、漫剧和AI视频项目中建立角色视觉设定、角色三视图、表情与姿态、服装与状态、场景空间设计、多视角场景资产、关键道具、视觉风格规范、AI生图 Prompt、资产一致性与版本交付。当用户提出角色设计、人物设定图、角色三视图、场景设计、场景概念图、视觉资产、角色一致性、场景一致性、资产清单、AI影视美术设定等需求时使用。
 agent_created: true
+version: 1.0.0
+display_name: AI角色与场景资产设计
+display_name_en: AI Character and Scene Asset Design
+description_zh: AI角色与场景资产设计 Skill。用于影视、短剧、漫剧和AI视频项目中建立角色视觉设定、角色三视图、表情与姿态、服装与状态、场景空间设计、多视角场景资产、关键道具、视觉风格规范、AI生图 Prompt、资产一致性与版本交付。当用户提出角色设计、人物设定图、角色三视图、场景设计、场景概念图、视觉资产、角色一致性、场景一致性、资产清单、AI影视美术设定等需求时使用。
+description_en: A skill for AI character and scene asset design. Used in film, short drama, comic and AI video projects to establish character visual settings, character three-view sheets, expressions and poses, costumes and states, scene space design, multi-view scene assets, key props, visual style guides, AI image prompts, and asset consistency with versioned delivery. Use when the user requests character design, character sheets, three-view character art, scene design, concept art, visual assets, character or scene consistency, asset inventories, or AI production art direction.
 ---
 
 # S08｜AI 角色与场景资产设计

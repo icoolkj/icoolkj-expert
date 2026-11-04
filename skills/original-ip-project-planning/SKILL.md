@@ -2,6 +2,11 @@
 name: original-ip-project-planning
 description: 面向原创小说、短剧、动态漫、AI影视及跨媒介内容的IP项目策划能力。当用户提出故事创意、小说灵感、人物设想、题材方向、原创IP开发、项目策划、故事立项、IP可行性分析或希望把零散素材整理成完整创作项目时使用。负责将创意转化为结构化、可执行、可交接的原创IP项目策划案。不负责代替小说主笔完成正文、世界观架构师完成完整设定或短剧编剧完成正式剧本。
 agent_created: true
+version: 1.0.0
+display_name: 原创IP项目策划
+display_name_en: Original IP Project Planning
+description_zh: 面向原创小说、短剧、动态漫、AI影视及跨媒介内容的IP项目策划能力。当用户提出故事创意、小说灵感、人物设想、题材方向、原创IP开发、项目策划、故事立项、IP可行性分析或希望把零散素材整理成完整创作项目时使用。负责将创意转化为结构化、可执行、可交接的原创IP项目策划案。不负责代替小说主笔完成正文、世界观架构师完成完整设定或短剧编剧完成正式剧本。
+description_en: A skill for original IP project planning for novels, short dramas, animated comics, AI film and cross-media content. Use when the user brings story ideas, inspiration, character concepts, genre direction, or wants to develop original IP, plan projects, greenlight stories, assess feasibility, or organize scattered material into a complete creative project. Converts ideas into structured, executable and handoff-ready original IP project plans. Not responsible for writing prose, building complete world settings, or producing final scripts.
 ---
 
 # S01：原创IP项目策划

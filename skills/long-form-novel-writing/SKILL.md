@@ -2,6 +2,11 @@
 name: long-form-novel-writing
 description: 长篇小说创作 Skill。用于原创小说的创作准备、创作圣经建立、长篇结构设计、分卷大纲、章节规划、小说正文写作、人物塑造、情节与伏笔管理、章节修改润色、连续性校验和长期连载状态管理。适用于玄幻、仙侠、都市、科幻、悬疑、末世、历史、言情及其他长篇小说类型。当用户提出开始写小说、继续写作、规划章节、写正文、扩写、修改章节、润色、审校、检查前后设定或整理创作进度时使用。不负责世界观从零构建（S02）与立项策划（S01），也不负责短剧分集、分镜与视觉资产生成。
 agent_created: true
+version: 1.0.0
+display_name: 长篇小说创作
+display_name_en: Long-Form Novel Writing
+description_zh: 长篇小说创作 Skill。用于原创小说的创作准备、创作圣经建立、长篇结构设计、分卷大纲、章节规划、小说正文写作、人物塑造、情节与伏笔管理、章节修改润色、连续性校验和长期连载状态管理。适用于玄幻、仙侠、都市、科幻、悬疑、末世、历史、言情及其他长篇小说类型。当用户提出开始写小说、继续写作、规划章节、写正文、扩写、修改章节、润色、审校、检查前后设定或整理创作进度时使用。不负责世界观从零构建（S02）与立项策划（S01），也不负责短剧分集、分镜与视觉资产生成。
+description_en: A skill for long-form novel writing. Covers creation preparation, story bibles, long-form structure design, volume and chapter outlines, chapter planning, prose writing, character development, plot and foreshadowing management, chapter revision and polishing, continuity checks and long-term serialization management. Suitable for xianxia, fantasy, urban, sci-fi, apocalyptic, suspense, historical, romance and other novel genres. Use when the user starts a novel, continues writing, plans chapters, writes or expands prose, revises or polishes chapters, reviews consistency, or organizes writing progress. Not responsible for worldbuilding from scratch (S02), project planning (S01), or short-drama episodes, storyboards and visual assets.
 ---
 
 # S03：长篇小说创作

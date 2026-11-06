@@ -26,6 +26,9 @@ release_bin/**/*.dll
 .vscode/
 *.iml
 
+# WorkBuddy 本地项目数据（记忆、会话、缓存）
+.workbuddy/
+
 # 系统文件
 .DS_Store
 Thumbs.db

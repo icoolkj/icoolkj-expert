@@ -10,7 +10,8 @@
 | `svg/Sxx-*.svg` | 12 枚矢量源文件（64×64 viewBox，蓝色渐变 + 深蓝描边） |
 | `Sxx-*.png` | 由 SVG 渲染的 256×256 透明 PNG |
 | `contact-sheet.png` | 12 宫格总览图 |
-| `build_icons.py` | 生成脚本：改 SVG 内容后重跑，SVG / PNG / 技能目录会一起刷新 |
+| `gallery.html` | 展示页：内联 SVG，双击即可查看全套图标及深色底效果 |
+| `build_icons.py` | 生成脚本：改 SVG 内容后重跑，SVG / PNG / 总览 / 展示页 / 技能目录会一起刷新 |
 | `source-poster.jpg` | 官方海报原图，仅作风格参考（**不是**图标提取源） |
 
 S01–S10 的图标各复制了一份到对应技能目录，命名为 `skills/<技能名>/icon.svg` 与 `icon.png`，

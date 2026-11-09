@@ -275,7 +275,79 @@ def main() -> None:
             print(f"{code} {zh:<8} -> svg + png  (暂无对应技能)")
 
     build_contact_sheet(icons).save(HERE / "contact-sheet.png")
-    print("已生成 contact-sheet.png")
+    (HERE / "gallery.html").write_text(build_gallery(), encoding="utf-8")
+    print("已生成 contact-sheet.png / gallery.html")
+
+
+GALLERY_CSS = """
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;background:#F5F7FD;color:#1E2A4A;padding:40px 28px 56px}
+.wrap{max-width:1120px;margin:0 auto}
+h1{font-size:26px;letter-spacing:.5px}
+.lead{margin:10px 0 6px;color:#64719A;font-size:14px;line-height:1.8}
+.meta{color:#8A96B8;font-size:12.5px;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{background:#fff;border:1px solid #E2E8F5;border-radius:16px;padding:22px 18px 18px;
+      box-shadow:0 2px 10px rgba(30,52,110,.04);transition:transform .18s,box-shadow .18s}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(30,52,110,.12)}
+.icon{height:76px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.icon svg{width:76px;height:76px}
+.code{font-size:12px;color:#8A96B8;letter-spacing:1px}
+.title{font-size:16px;font-weight:600;margin:3px 0 8px}
+.slug{font-size:11.5px;color:#7A86A8;word-break:break-all;line-height:1.5;min-height:34px}
+.badge{display:inline-block;margin-top:10px;padding:3px 10px;border-radius:99px;font-size:11px}
+.on{background:#E8F1FF;color:#1D57C8}.off{background:#F1F2F7;color:#8A90A8}
+.dark{margin-top:34px;background:#141B32;border-radius:18px;padding:24px 26px}
+.dark h2{font-size:15px;color:#DCE5FF;font-weight:600;margin-bottom:4px}
+.dark p{font-size:12px;color:#8794BC;margin-bottom:18px}
+.row{display:flex;flex-wrap:wrap;gap:14px}
+.cell{width:74px;text-align:center}
+.cell svg{width:46px;height:46px}
+.cell span{display:block;color:#7E8CB8;font-size:10.5px;margin-top:4px}
+.foot{margin-top:26px;font-size:12px;color:#8A96B8;line-height:1.8}
+"""
+
+
+def build_gallery() -> str:
+    """生成静态展示页：内联 SVG，不依赖外部文件，双击即可看。"""
+    def inline(code: str, slug: str, suffix: str = "") -> str:
+        svg = (SVG_DIR / f"{code}-{slug}.svg").read_text(encoding="utf-8")
+        # 同一文档内 24 个 SVG（卡片区 + 深色区），渐变 id 需全局唯一
+        for key in ("b", "g"):
+            svg = svg.replace(f'id="{key}"', f'id="{key}{code}{suffix}"')
+            svg = svg.replace(f"url(#{key})", f"url(#{key}{code}{suffix})")
+        return svg
+
+    cards = []
+    for code, slug, zh, _, target in ICONS:
+        badge = "已安装到本机技能" if target else "图标库备用"
+        cls = "on" if target else "off"
+        cards.append(
+            f'<div class="card"><div class="icon">{inline(code, slug)}</div>'
+            f'<div class="code">{code}</div><div class="title">{zh}</div>'
+            f'<div class="slug">{target or "暂无对应技能"}</div>'
+            f'<span class="badge {cls}">{badge}</span></div>'
+        )
+    cells = "".join(
+        f'<div class="cell">{inline(code, slug, "-dark")}<span>{code}</span></div>'
+        for code, slug, *_ in ICONS
+    )
+    return (
+        '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<title>灵启逸梦 · Skill 小头标</title><style>' + GALLERY_CSS + '</style></head><body><div class="wrap">'
+        '<h1>灵启逸梦 · Skill 小头标</h1>'
+        '<p class="lead">按官方海报 12 项核心 Skill 的图形语言矢量重绘。SVG 源文件 + 透明 PNG，任意尺寸清晰。</p>'
+        '<p class="meta">64×64 画布 · 蓝色渐变 #57A0FF → #123FCF · 描边 #0E3BB8 · S12 灯泡保留金色强调</p>'
+        '<div class="grid">' + "".join(cards) + '</div>'
+        '<div class="dark"><h2>深色界面下的透明底效果</h2>'
+        '<p>透明 PNG / SVG 无白底残留，深色背景同样干净。</p>'
+        '<div class="row">' + cells + '</div></div>'
+        '<p class="foot">前 10 枚已同步到 C:\\Users\\Administrator\\.workbuddy\\skills\\ 下各技能目录（icon.svg + icon.png）；'
+        'S11 数据分析、S12 内容策划暂无对应技能，仅存图标库。<br>'
+        '改设计请编辑 build_icons.py 的 ICONS 片段后重跑。</p>'
+        '</div></body></html>'
+    )
 
 
 if __name__ == "__main__":

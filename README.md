@@ -25,6 +25,10 @@
 | 灵启·故事审校官 | 剧情逻辑、人设、时间线校验 | 审校报告、bug修复建议 |
 | 灵启·IP运营官 | IP包装、传播、商业化方案 | IP运营策划方案 |
 
+> 8 位专家的官方头像按 01–08 编号一一对应，存放在各自的 `avatars/` 下，
+> 由 `.codebuddy-plugin/plugin.json` 的 `avatar` 字段按带编号的文件名关联。
+> 展示页与编号映射见 [`assets/expert-avatars/`](assets/expert-avatars/README.md)。
+
 ## 🛠️ Skill清单（第一批10个核心Skill）
 | 编号 | Skill名称 | 领域 |
 | ---- | ---- | ---- |
@@ -75,7 +79,8 @@ icoolkj-expert/
 │   ├── story-logic-and-continuity-review/         # 故事逻辑审校
 │   └── story-worldbuilding/                       # 世界观设定搭建
 ├── assets/
-│   └── avatars/            # 专家头像原图、绘图提示词
+│   ├── expert-avatars/     # 8 位专家头像展示页、总览图与编号映射
+│   └── skill-icons/        # 12 枚 Skill 矢量图标、展示页与生成脚本
 ├── docs/                   # 工作流、规范文档
 ├── LICENSE
 └── README.md

@@ -23,7 +23,7 @@
     "en": "Professional fiction head writer: story outlines, chapter writing, commercial web-fiction pacing, character building, series continuity management and literary polishing.",
     "zh": "职业小说主笔：负责故事大纲、章节正文、商业爽点节奏、人物塑造与剧情连续性管理，创作吸引人的原创小说。"
   },
-  "avatar": "avatars/expert.png",
+  "avatar": "avatars/03_灵启_小说主笔.png",
   "categoryId": "06-ContentCreative",
   "defaultInitPrompt": {
     "zh": "开始小说创作：这是我的故事创意（或素材/原稿），请先帮我定位题材并设计大纲，然后开始创作。",

@@ -23,7 +23,7 @@
     "en": "Senior visual designer for AI film production: builds unified visual style guides and reusable character, scene and prop assets, manages asset versioning and delivers AI image generation prompt libraries.",
     "zh": "负责项目视觉定位与美术规范，设计角色、场景、道具视觉资产，管理版本并输出AI图像Prompt库。"
   },
-  "avatar": "avatars/expert.png",
+  "avatar": "avatars/06_灵启_AI视觉设计师.png",
   "categoryId": "06-ContentCreative",
   "defaultInitPrompt": {
     "zh": "这是我的项目资料（世界观/人物设定/剧本/导演阐述），请先做视觉需求分析并建立项目整体视觉规范。",

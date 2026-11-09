@@ -25,10 +25,16 @@ Agent 型（单个 AI 专家）
 
 ## 头像
 
-头像已自动生成在 `avatars/` 目录下。如需替换为自定义头像，要求：
+官方头像：`avatars/07_灵启_故事审校官.png`（512×512 PNG）。
+`.codebuddy-plugin/plugin.json` 的 `avatar` 字段指向该文件——更换头像时须同步更新字段，
+并重跑 `python assets/expert-avatars/build_gallery.py` 刷新展示页与总览图。
+
+自定义头像要求：
 - 格式：PNG（推荐）或 JPG
 - 尺寸：512×512 px
 - 大小：单张不超过 500KB
+- 文件名沿用 `<编号>_灵启_<角色名>.png`，保持 01–08 编号与专家一一对应
+
 
 ## 安装
 

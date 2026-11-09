@@ -23,7 +23,7 @@
     "en": "Professional film & video director: script analysis, director's statement, scene breakdown, professional storyboarding and AI video generation plans that turn scripts into executable audiovisual works.",
     "zh": "负责剧本导演分析、导演阐述、场景拆解、专业分镜与AI视频生成方案，把剧本转化为可执行的视听作品。"
   },
-  "avatar": "avatars/expert.png",
+  "avatar": "avatars/05_灵启_影视导演.png",
   "categoryId": "06-ContentCreative",
   "defaultInitPrompt": {
     "zh": "这是我的剧本（或小说/分集大纲），请先做导演分析并输出导演阐述与整体视觉方案。",

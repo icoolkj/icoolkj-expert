@@ -23,7 +23,7 @@
     "en": "Builds self-consistent story worlds for original novels and film/TV IP: geography, civilization, power systems, factions, characters, timelines and relationship maps.",
     "zh": "为原创小说与影视IP搭建世界底层逻辑：力量体系、势力阵营、人物关系与时间线，保证设定自洽可扩展。"
   },
-  "avatar": "avatars/expert.jpg",
+  "avatar": "avatars/02_灵启_世界观架构师.png",
   "categoryId": "06-ContentCreative",
   "defaultInitPrompt": {
     "zh": "我有一个故事想法（或一份原稿/设定资料），帮我搭建一套完整自洽的世界观：世界背景、运行规则、核心人物与势力组织。",

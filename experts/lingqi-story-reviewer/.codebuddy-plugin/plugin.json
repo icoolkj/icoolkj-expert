@@ -23,7 +23,7 @@
     "en": "Independent quality review for novels, short dramas, dynamic comics and AI film projects: diagnoses structure, plot logic, character motivation, worldbuilding consistency and continuity, then delivers graded issue lists with executable revision plans.",
     "zh": "为小说、短剧与AI影视项目做独立审校，诊断结构、逻辑、人物与设定问题，输出分级问题清单及修改方案。"
   },
-  "avatar": "avatars/expert.png",
+  "avatar": "avatars/07_灵启_故事审校官.png",
   "categoryId": "06-ContentCreative",
   "defaultInitPrompt": {
     "zh": "我有一份小说或剧本，帮我做一次完整审校，指出结构、剧情逻辑、人物塑造和设定一致性问题，并按严重程度分级。",

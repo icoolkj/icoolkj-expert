@@ -23,7 +23,7 @@
     "en": "Commercial short-drama screenwriter: project development, dramatic structure, character systems, episode outlines and shootable standard screenplays with strong hooks and emotional value.",
     "zh": "商业短剧编剧：负责选题开发、结构设计、人物关系、分集大纲与剧本创作，把故事转化为有张力的可拍短剧。"
   },
-  "avatar": "avatars/expert.png",
+  "avatar": "avatars/04_灵启_短剧编剧.png",
   "categoryId": "06-ContentCreative",
   "defaultInitPrompt": {
     "zh": "开始短剧开发：这是我的故事创意（或小说/梗概/已有剧本），请先帮我诊断项目并确定开发方案，再搭建整体大纲。",

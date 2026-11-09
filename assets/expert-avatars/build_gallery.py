@@ -6,15 +6,17 @@
     python assets/expert-avatars/build_gallery.py
 
 产物：
-    gallery.html        引用项目内原图，轻量；单文件分享请用 contact-sheet.png
+    gallery.html        自包含展示页：512 PNG 压成 320 JPEG 内联，无脚本、无外部依赖
     contact-sheet.png   4x2 总览图
 """
 from __future__ import annotations
 
+import base64
 import html
+import io
 import json
+from functools import lru_cache
 from pathlib import Path
-from urllib.parse import quote
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -100,15 +102,19 @@ def load_items() -> list[dict]:
     return items
 
 
-def src(i: dict) -> str:
-    """展示页位于 assets/expert-avatars/，相对路径指回 experts/ 下的原图。"""
-    rel = Path("..") / ".." / "experts" / i["dir"] / "avatars" / i["file"]
-    return quote(rel.as_posix(), safe="/")
+@lru_cache(maxsize=None)
+def thumb(path_str: str) -> str:
+    """把 512 PNG 压成 320 JPEG 内联，让展示页单文件可用（原图不受影响）。"""
+    im = Image.open(path_str).convert("RGB")
+    im.thumbnail((320, 320), Image.LANCZOS)
+    buf = io.BytesIO()
+    im.save(buf, "JPEG", quality=88, optimize=True)
+    return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode("ascii")
 
 
 def build_html(items: list[dict]) -> str:
     cards = "".join(
-        f'<div class="card"><div class="photo"><img src="{src(i)}" alt="{html.escape(i["zh"])}"></div>'
+        f'<div class="card"><div class="photo"><img src="{thumb(str(i["path"]))}" alt="{html.escape(i["zh"])}"></div>'
         f'<span class="code">{i["code"]}</span>'
         f'<div class="title">{html.escape(i["zh"])}</div>'
         f'<div class="prof">{html.escape(i["prof"])}</div>'
@@ -118,7 +124,7 @@ def build_html(items: list[dict]) -> str:
         for i in items
     )
     cells = "".join(
-        f'<div class="cell"><img src="{src(i)}" alt=""><span>{i["code"]}</span></div>'
+        f'<div class="cell"><img src="{thumb(str(i["path"]))}" alt=""><span>{i["code"]}</span></div>'
         for i in items
     )
     rows = "".join(

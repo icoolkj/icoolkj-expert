@@ -20,7 +20,7 @@
 
 | 文件 | 用途 |
 | --- | --- |
-| `gallery.html` | 展示页：8 张头像卡片 + 深色界面效果 + 映射表。引用项目内原图，需与 `experts/` 一起保留 |
+| `gallery.html` | 展示页：8 张头像卡片 + 深色界面效果 + 映射表。512 PNG 压成 320 JPEG 内联，无脚本无外部依赖，单文件即可打开或分享 |
 | `contact-sheet.png` | 4×2 总览图，单文件可直接分享 |
 | `build_gallery.py` | 生成脚本，数据源是 8 个 `plugin.json` 的 `avatar` / `displayName` / `profession` |
 

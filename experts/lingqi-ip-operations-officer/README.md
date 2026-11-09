@@ -1,6 +1,6 @@
-# Lingqi Ip Operations Officer
+# 灵启·IP运营官（Lingqi IP Operations Officer）
 
-[TODO: 一句话描述]
+灵启逸梦（LING QI YI MENG）创作体系的 IP 运营总监专家：为原创小说、短剧、动态漫与 AI 影视项目建立完整 IP 运营体系——从创意定位、作品包装到内容传播、用户沉淀，再到商业化开发与长期 IP 资产管理。
 
 ## 类型
 
@@ -8,19 +8,34 @@ Agent 型（单个 AI 专家）
 
 ## 功能
 
-[TODO: 详细功能说明]
+- **IP定位与市场分析**：分析题材类型、核心卖点与差异化优势、目标受众、竞品与平台适配，识别市场机会、风险与竞争壁垒，输出《IP定位与市场分析报告》
+- **IP品牌包装**：设计 IP 名称、品牌定位与传播口号，提炼一句话故事、核心价值主张与对外介绍体系，产出宣传语、简介与卖点文案
+- **平台与渠道运营策略**：按作品类型选择内容平台与分发渠道，制定发布节奏、渠道组合与平台规则适配方案
+- **内容营销与宣传策划**：宣传策划案、文案素材库、短视频选题、小红书内容规划、IP 内容运营日历与宣传视觉素材需求单
+- **用户画像与粉丝运营**：建立目标受众画像与用户分层，设计社群与互动机制，把流量沉淀为可长期经营的用户资产
+- **IP商业化规划**：评估商业化潜力、授权与衍生方向、变现路径优先级，输出《IP商业化路线图》
+- **IP资产管理**：建立 IP 设定、版权与版本档案，维护跨作品、跨媒介的设定一致性与品牌资产延续
+- **跨媒介IP开发**：评估小说、短剧、动态漫、AI 影视、漫画、游戏的改编适配度，规划开发顺序与专家协同路径
+- **运营数据分析与复盘**：定义评估指标，结合作品进度与运营数据调整策略，保留有效方案并说明调整原因，输出《IP运营数据分析与复盘报告》
+
+交付物：IP 运营策划方案，含《IP定位与市场分析报告》《IP品牌包装方案》《平台选择与渠道运营方案》《IP商业化路线图》《IP跨媒介开发规划》《IP资产档案》。
+
+## 工作方式
+
+理解项目 → 收集与整理资料 → 专业分析（定位/受众/内容/平台/传播/商业化/长期价值）→ 制定阶段性策略 → 形成执行计划 → 数据复盘优化；按 IP 全生命周期七阶段规划，严格区分事实、数据、推测、建议与待验证事项。
 
 ## 使用示例
 
-- [TODO: 示例提示词1]
-- [TODO: 示例提示词2]
-- [TODO: 示例提示词3]
+- 这是我的作品资料（小说/短剧剧本/世界观设定/视觉资产/运营数据），请先做IP定位与市场分析，并给出阶段性运营规划。
+- 请为我的作品做品牌包装：一句话故事、核心卖点、宣传文案、短视频选题和小红书内容规划。
+- 请评估我的IP商业化潜力，输出商业化路线图和跨媒介开发规划。
 
 ## 头像
 
 官方头像：`avatars/08_灵启_IP运营官.png`（512×512 PNG）。
 `.codebuddy-plugin/plugin.json` 的 `avatar` 字段指向该文件——更换头像时须同步更新字段，
-并重跑 `python assets/expert-avatars/build_gallery.py` 刷新展示页与总览图。
+再重跑 `python scripts/build_expert_readmes.py` 与 `python assets/expert-avatars/build_gallery.py`
+同步本 README 与头像展示页。
 
 自定义头像要求：
 - 格式：PNG（推荐）或 JPG
@@ -28,22 +43,22 @@ Agent 型（单个 AI 专家）
 - 大小：单张不超过 500KB
 - 文件名沿用 `<编号>_灵启_<角色名>.png`，保持 01–08 编号与专家一一对应
 
-
 ## 安装
 
-将专家包目录放到专家目录下：
+将整个专家包目录放到本机专家市场目录下：
 
 ```
-C:\Users\Administrator\.workbuddy\plugins\marketplaces\my-experts\plugins/lingqi-ip-operations-officer/
+C:\Users\Administrator\.workbuddy\plugins\marketplaces\my-experts\plugins\lingqi-ip-operations-officer\
 ```
 
-然后运行注册命令使其可见：
-
-```bash
-python3 scripts/register_expert.py <expert-dir>
-```
+目录内应包含 `.codebuddy-plugin/plugin.json`、`agents/`、`avatars/` 和本 README。
+如需在市场清单中登记，在 `my-experts/.codebuddy-plugin/marketplace.json` 的 `plugins` 数组补一条
+`name` / `source` / `description` / `version`。完成后重启 WorkBuddy 让客户端重新扫描插件
+（头像与配置有缓存，不重启可能看不到更新）。
 
 ## 打包分享
+
+在 `experts/` 目录下执行：
 
 ```bash
 zip -r lingqi-ip-operations-officer.zip lingqi-ip-operations-officer/

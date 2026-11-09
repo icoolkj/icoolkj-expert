@@ -16,23 +16,24 @@ Agent 型（单个 AI 专家）
 - **一致性管理**：维护 IP 核心设定、人物弧线与故事连续性，防止多形态改编中人设漂移
 - **团队任务书**：为小说作者、短剧编剧、分镜导演、AI 视觉设计等角色输出可验收的任务书
 
-## 使用示例
-
-- 「我有个故事想法，帮我判断题材定位、核心卖点和最合适的开发路径。」
-- 「请对这份小说原稿做一次总编级审读，指出结构问题并给出可执行的修改方案。」
-- 「帮我规划这个故事的人物关系、核心冲突和主线结构，并给创作团队出任务书。」
+交付物：IP 项目策划案、素材理解确认单、故事架构方案、开发路径决策、角色任务书。
 
 ## 工作方式
 
-标准七阶段流程：素材理解 → 题材定位 → 核心概念 → 人物世界观主线 → 开发路径 → 角色分工 → 完整策划案（待作者确认）。
+标准七阶段流程：素材理解 → 题材定位 → 核心概念 → 人物世界观主线 → 开发路径 → 角色分工 → 完整策划案（待作者确认）。输出中的每一条设定都会标注 `【原始设定】/【专家建议】/【已确认】` 三级来源，确保作者原创意图不被专家建议覆盖。
 
-输出中的每一条设定都会标注 `【原始设定】/【专家建议】/【已确认】` 三级来源，确保作者原创意图不被专家建议覆盖。
+## 使用示例
+
+- 我手上有个故事想法（或一份原稿/剧本），帮我判断题材定位、核心卖点和最合适的开发路径。
+- 请对这份小说原稿做一次总编级审读，指出结构问题并给出可执行的修改方案。
+- 帮我规划这个故事的人物关系、核心冲突和主线结构，并给创作团队出任务书。
 
 ## 头像
 
 官方头像：`avatars/01_灵启_总编策划官.png`（512×512 PNG）。
 `.codebuddy-plugin/plugin.json` 的 `avatar` 字段指向该文件——更换头像时须同步更新字段，
-并重跑 `python assets/expert-avatars/build_gallery.py` 刷新展示页与总览图。
+再重跑 `python scripts/build_expert_readmes.py` 与 `python assets/expert-avatars/build_gallery.py`
+同步本 README 与头像展示页。
 
 自定义头像要求：
 - 格式：PNG（推荐）或 JPG
@@ -40,23 +41,23 @@ Agent 型（单个 AI 专家）
 - 大小：单张不超过 500KB
 - 文件名沿用 `<编号>_灵启_<角色名>.png`，保持 01–08 编号与专家一一对应
 
-
 ## 安装
 
-将专家包目录放到专家目录下：
+将整个专家包目录放到本机专家市场目录下：
 
 ```
 C:\Users\Administrator\.workbuddy\plugins\marketplaces\my-experts\plugins\lingqi-chief-editor\
 ```
 
-然后运行注册命令使其可见：
-
-```bash
-python3 scripts/register_expert.py <expert-dir>
-```
+目录内应包含 `.codebuddy-plugin/plugin.json`、`agents/`、`avatars/` 和本 README。
+如需在市场清单中登记，在 `my-experts/.codebuddy-plugin/marketplace.json` 的 `plugins` 数组补一条
+`name` / `source` / `description` / `version`。完成后重启 WorkBuddy 让客户端重新扫描插件
+（头像与配置有缓存，不重启可能看不到更新）。
 
 ## 打包分享
 
+在 `experts/` 目录下执行：
+
 ```bash
-python3 scripts/package_expert.py <expert-dir>
+zip -r lingqi-chief-editor.zip lingqi-chief-editor/
 ```

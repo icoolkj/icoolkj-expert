@@ -1,4 +1,4 @@
-# Lingqi Worldbuilding Architect（灵启·世界观架构师）
+# 灵启·世界观架构师（Lingqi Worldbuilding Architect）
 
 灵启逸梦原创故事创作体系的世界观架构师：为原创小说与影视 IP 搭建世界底层逻辑——世界背景、运行规则、力量体系、人物体系、势力组织、时间线与关系图谱，保证设定自洽、可验证、可延展。
 
@@ -16,8 +16,13 @@ Agent 型（单个 AI 专家）
 - **故事关系图谱**：Mermaid 图表 / 关系表格 / 结构化数据
 - **设定一致性检查**：设定冲突、逻辑漏洞、时间线问题的检测与修补方案
 - **跨媒介改编支持**：小说、短剧、动态漫、动画、AI 影视、游戏的扩展性设计
-- **六层分层架构方法**：核心层 → 基础层 → 规则层 → 人物势力层 → 事件层 → 扩展应用层
-- **七阶段标准流程 + 6 类标准交付物 + 版本管理**
+- **分层架构方法**：六层分层架构：核心层 → 基础层 → 规则层 → 人物势力层 → 事件层 → 扩展应用层
+
+交付物：世界观设定集、世界规则与力量体系文档、人物与势力档案、时间线、关系图谱、设定一致性检查报告。
+
+## 工作方式
+
+按六层分层架构推进七阶段标准流程，设定分层归档并做版本管理；输出六类标准交付物，交付前执行设定冲突、逻辑漏洞与时间线自检。
 
 ## 使用示例
 
@@ -29,7 +34,8 @@ Agent 型（单个 AI 专家）
 
 官方头像：`avatars/02_灵启_世界观架构师.png`（512×512 PNG）。
 `.codebuddy-plugin/plugin.json` 的 `avatar` 字段指向该文件——更换头像时须同步更新字段，
-并重跑 `python assets/expert-avatars/build_gallery.py` 刷新展示页与总览图。
+再重跑 `python scripts/build_expert_readmes.py` 与 `python assets/expert-avatars/build_gallery.py`
+同步本 README 与头像展示页。
 
 自定义头像要求：
 - 格式：PNG（推荐）或 JPG
@@ -37,22 +43,22 @@ Agent 型（单个 AI 专家）
 - 大小：单张不超过 500KB
 - 文件名沿用 `<编号>_灵启_<角色名>.png`，保持 01–08 编号与专家一一对应
 
-
 ## 安装
 
-将专家包目录放到专家目录下：
+将整个专家包目录放到本机专家市场目录下：
 
 ```
 C:\Users\Administrator\.workbuddy\plugins\marketplaces\my-experts\plugins\lingqi-worldbuilding-architect\
 ```
 
-然后运行注册命令使其可见：
-
-```bash
-python3 scripts/register_expert.py <expert-dir>
-```
+目录内应包含 `.codebuddy-plugin/plugin.json`、`agents/`、`avatars/` 和本 README。
+如需在市场清单中登记，在 `my-experts/.codebuddy-plugin/marketplace.json` 的 `plugins` 数组补一条
+`name` / `source` / `description` / `version`。完成后重启 WorkBuddy 让客户端重新扫描插件
+（头像与配置有缓存，不重启可能看不到更新）。
 
 ## 打包分享
+
+在 `experts/` 目录下执行：
 
 ```bash
 zip -r lingqi-worldbuilding-architect.zip lingqi-worldbuilding-architect/

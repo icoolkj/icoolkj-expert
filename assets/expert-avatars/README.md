@@ -28,9 +28,10 @@
 
 1. 把新图片放进对应专家的 `avatars/`，文件名沿用 `<编号>_灵启_<角色名>.png`
 2. 更新该专家 `.codebuddy-plugin/plugin.json` 的 `avatar` 字段指向新文件名
-3. 重跑生成脚本，展示页与总览图一起刷新：
+3. 重跑两个生成脚本：前者刷新 8 份专家 README 里的头像文件名，后者刷新展示页与总览图
 
 ```bash
+python scripts/build_expert_readmes.py
 python assets/expert-avatars/build_gallery.py
 ```
 

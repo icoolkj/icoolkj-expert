@@ -28,6 +28,9 @@
 > 8 位专家的官方头像按 01–08 编号一一对应，存放在各自的 `avatars/` 下，
 > 由 `.codebuddy-plugin/plugin.json` 的 `avatar` 字段按带编号的文件名关联。
 > 展示页与编号映射见 [`assets/expert-avatars/`](assets/expert-avatars/README.md)。
+>
+> 8 份专家 README 由 [`scripts/build_expert_readmes.py`](scripts/build_expert_readmes.py) 统一生成，
+> 标题、头像、使用示例均取自各 `plugin.json`；改内容请改脚本后重跑，避免逐份手改再次走样。
 
 ## 🛠️ Skill清单（第一批10个核心Skill）
 | 编号 | Skill名称 | 领域 |
@@ -81,6 +84,7 @@ icoolkj-expert/
 ├── assets/
 │   ├── expert-avatars/     # 8 位专家头像展示页、总览图与编号映射
 │   └── skill-icons/        # 12 枚 Skill 矢量图标、展示页与生成脚本
+├── scripts/                # 专家 README 统一生成脚本
 ├── docs/                   # 工作流、规范文档
 ├── LICENSE
 └── README.md

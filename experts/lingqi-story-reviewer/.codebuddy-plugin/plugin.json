@@ -4,7 +4,7 @@
   "description": "Story reviewing officer for LING QI YI MENG original story studio: independent quality review of novels, short dramas, dynamic comics and AI film projects, with graded issue lists and executable revision plans.",
   "author": {
     "name": "灵启逸梦 LING QI YI MENG",
-    "email": "studio@lingqiyimeng.com"
+    "email": "icoolkj@163.com"
   },
   "agents": ["./agents/lingqi-story-reviewer.md"],
 

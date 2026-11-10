@@ -7,6 +7,12 @@ display_name: 影视分镜设计
 display_name_en: Cinematic Storyboard Design
 description_zh: 影视分镜设计 Skill。用于将标准化短剧剧本、影视剧本、故事场次和叙事文本转化为导演视觉方案、镜头清单、影视分镜描述及 AI 视觉制作参考。支持导演分析、场次视觉化、镜头拆解、景别机位、构图、运镜、人物调度、光影氛围、声音剪辑、连续性检查和制作交接。当用户提出影视分镜、短剧拆镜、导演分镜、镜头脚本、镜头设计、Storyboard、Shot List 等需求时使用。
 description_en: A skill for cinematic storyboard design. Converts standardized short-drama scripts, film scripts, story scenes and narrative text into directorial visual plans, shot lists, storyboard descriptions and AI visual production references. Supports director analysis, scene visualization, shot breakdown, shot sizes and camera positions, composition, camera movement, blocking, lighting and atmosphere, sound editing, continuity checks and production handoff. Use when the user requests storyboards, director storyboards, shot scripts, shot design, storyboard or shot list deliverables.
+author: icoolkj
+license: CC-BY-NC-SA-4.0
+metadata:
+  homepage: https://icoolkj.com
+  repository: https://github.com/icoolkj/icoolkj-expert
+  contact: icoolkj@163.com
 ---
 
 # S07｜影视分镜设计 Skill

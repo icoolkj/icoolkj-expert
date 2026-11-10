@@ -7,6 +7,12 @@ display_name: 小说转短剧改编
 display_name_en: Novel to Short Drama Adaptation
 description_zh: 小说转短剧改编能力。当用户提出小说改短剧、小说影视化、小说转剧本、原著改编短剧、短剧分集大纲、短剧剧本创作、剧本审校、结尾钩子设计或改编一致性检查时使用。负责把长篇小说、短篇小说、章节或故事大纲重构为可拍摄的短剧项目，产出原著解析报告、改编方案、分集大纲、分集剧本与导演交付包。不负责原创IP立项策划、世界观从零构建、小说正文续写与原著连续性维护。
 description_en: A skill for adapting novels into short dramas. Use when the user requests adapting a novel into a short drama, film and TV adaptation, original-based short drama scripts, episode outlines, script writing, script review, ending hook design or adaptation consistency checks. Restructures novels, chapters or story outlines into filmable short-drama projects, delivering source analysis reports, adaptation plans, episode outlines, episode scripts and director handoff packages. Not responsible for original IP project planning, worldbuilding from scratch, novel prose continuation, or source continuity maintenance.
+author: icoolkj
+license: CC-BY-NC-SA-4.0
+metadata:
+  homepage: https://icoolkj.com
+  repository: https://github.com/icoolkj/icoolkj-expert
+  contact: icoolkj@163.com
 ---
 
 # S05：小说转短剧改编

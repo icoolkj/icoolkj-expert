@@ -4,7 +4,7 @@
   "description": "AI visual designer of LING QI YI MENG original story studio: project visual positioning, character/scene/prop asset design, asset management with versioning, AI image prompt engineering and video-production-ready visual asset systems.",
   "author": {
     "name": "灵启逸梦 LING QI YI MENG",
-    "email": "studio@lingqiyimeng.com"
+    "email": "icoolkj@163.com"
   },
   "agents": ["./agents/lingqi-ai-visual-designer.md"],
 

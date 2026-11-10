@@ -7,6 +7,12 @@ display_name: 短剧剧本标准化
 display_name_en: Short Drama Script Standardization
 description_zh: 短剧剧本标准化 Skill。用于对短剧剧本进行结构解析、格式规范、场次编号、人物与对白标注、动作及场景描述规范、影视标注统一、剧本完整性检查、连续性审校、版本管理和标准化交付。当用户提出剧本规范化、剧本格式整理、短剧剧本审校、剧本标准化、剧本交付检查、剧本格式统一等需求时使用。
 description_en: A skill for short-drama script standardization. Covers structure parsing, format normalization, scene numbering, character and dialogue labeling, action and scene description standards, cinematic notation unification, script completeness checks, continuity review, version management and standardized delivery. Use when the user requests script normalization, script formatting, short-drama script review, standardization, delivery checks or format unification.
+author: icoolkj
+license: CC-BY-NC-SA-4.0
+metadata:
+  homepage: https://icoolkj.com
+  repository: https://github.com/icoolkj/icoolkj-expert
+  contact: icoolkj@163.com
 ---
 
 # S06｜短剧剧本标准化 Skill

@@ -1,16 +1,16 @@
 {
   "name": "lingqi-film-director",
   "version": "1.0.0",
-  "description": "Film & video director of LING QI YI MENG original story studio: director-perspective script analysis, director's statement, scene breakdown, professional storyboarding, AI video prompt design and shot continuity management.",
+  "description": "Film & video director of AI Creative Studio: director-perspective script analysis, director's statement, scene breakdown, professional storyboarding, AI video prompt design and shot continuity management.",
   "author": {
-    "name": "灵启逸梦 LING QI YI MENG",
+    "name": "icoolkj",
     "email": "icoolkj@163.com"
   },
-  "agents": ["./agents/lingqi-film-director.md"],
-
+  "agents": [
+    "./agents/lingqi-film-director.md"
+  ],
   "expertType": "agent",
   "agentName": "lingqi-film-director",
-
   "displayName": {
     "en": "Lingqi Film Director",
     "zh": "灵启·影视导演"
@@ -31,13 +31,35 @@
   },
   "plugin": "lingqi-film-director",
   "tags": [
-    { "en": "Storyboarding", "zh": "分镜设计" },
-    { "en": "Director's Statement", "zh": "导演阐述" },
-    { "en": "AI Video Production", "zh": "AI视频制作" }
+    {
+      "en": "Storyboarding",
+      "zh": "分镜设计"
+    },
+    {
+      "en": "Director's Statement",
+      "zh": "导演阐述"
+    },
+    {
+      "en": "AI Video Production",
+      "zh": "AI视频制作"
+    }
   ],
   "quickPrompts": [
-    { "en": "Here is my script (or novel/episode outline). Start with a director's analysis, then deliver the director's statement and overall visual plan.", "zh": "这是我的剧本（或小说/分集大纲），请先做导演分析并输出导演阐述与整体视觉方案。" },
-    { "en": "Break down episode X into a professional storyboard script (shot size, camera movement, action, dialogue/sound and transitions included).", "zh": "请把第X集剧本拆解为专业分镜脚本（含景别、运镜、画面动作、台词声音与转场）。" },
-    { "en": "Produce AI video generation plans for these shots (Chinese prompts, consistency requirements, generation risks and fallback shot designs).", "zh": "请为这些镜头输出AI视频生成方案（中文Prompt、一致性要求、生成难点与备选方案）。" }
-  ]
+    {
+      "en": "Here is my script (or novel/episode outline). Start with a director's analysis, then deliver the director's statement and overall visual plan.",
+      "zh": "这是我的剧本（或小说/分集大纲），请先做导演分析并输出导演阐述与整体视觉方案。"
+    },
+    {
+      "en": "Break down episode X into a professional storyboard script (shot size, camera movement, action, dialogue/sound and transitions included).",
+      "zh": "请把第X集剧本拆解为专业分镜脚本（含景别、运镜、画面动作、台词声音与转场）。"
+    },
+    {
+      "en": "Produce AI video generation plans for these shots (Chinese prompts, consistency requirements, generation risks and fallback shot designs).",
+      "zh": "请为这些镜头输出AI视频生成方案（中文Prompt、一致性要求、生成难点与备选方案）。"
+    }
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://icoolkj.com",
+  "repository": "https://github.com/icoolkj/icoolkj-expert",
+  "contact": "icoolkj@163.com"
 }

@@ -1,16 +1,16 @@
 {
   "name": "lingqi-worldbuilding-architect",
   "version": "1.0.0",
-  "description": "Worldbuilding architect of LING QI YI MENG original story studio: world rules, power systems, characters, factions, timelines and consistency management.",
+  "description": "Worldbuilding architect of AI Creative Studio: world rules, power systems, characters, factions, timelines and consistency management.",
   "author": {
-    "name": "灵启逸梦 LING QI YI MENG",
+    "name": "icoolkj",
     "email": "icoolkj@163.com"
   },
-  "agents": ["./agents/lingqi-worldbuilding-architect.md"],
-
+  "agents": [
+    "./agents/lingqi-worldbuilding-architect.md"
+  ],
   "expertType": "agent",
   "agentName": "lingqi-worldbuilding-architect",
-
   "displayName": {
     "en": "Lingqi Worldbuilding Architect",
     "zh": "灵启·世界观架构师"
@@ -31,13 +31,35 @@
   },
   "plugin": "lingqi-worldbuilding-architect",
   "tags": [
-    { "en": "Worldbuilding", "zh": "世界观架构" },
-    { "en": "Power System Design", "zh": "力量体系设计" },
-    { "en": "Character & Faction Setting", "zh": "人物与势力设定" }
+    {
+      "en": "Worldbuilding",
+      "zh": "世界观架构"
+    },
+    {
+      "en": "Power System Design",
+      "zh": "力量体系设计"
+    },
+    {
+      "en": "Character & Faction Setting",
+      "zh": "人物与势力设定"
+    }
   ],
   "quickPrompts": [
-    { "en": "I have a story idea (or manuscript/setting materials) — help me build a complete, self-consistent world: background, rules, core characters and factions.", "zh": "我有一个故事想法（或一份原稿/设定资料），帮我搭建一套完整自洽的世界观：世界背景、运行规则、核心人物与势力组织。" },
-    { "en": "Design a power/cultivation system for this world: realm tiers, ability limits, costs and constraints that actually constrain the plot.", "zh": "帮这个世界设计力量体系：境界划分、能力上限、使用代价与限制规则，并说明如何约束剧情。" },
-    { "en": "Run a consistency check on my novel's existing settings, characters and timeline; list conflicts, plot holes and fixes.", "zh": "对我小说的现有设定、人物和时间线做一次一致性检查，列出设定冲突、逻辑漏洞与修补方案。" }
-  ]
+    {
+      "en": "I have a story idea (or manuscript/setting materials) — help me build a complete, self-consistent world: background, rules, core characters and factions.",
+      "zh": "我有一个故事想法（或一份原稿/设定资料），帮我搭建一套完整自洽的世界观：世界背景、运行规则、核心人物与势力组织。"
+    },
+    {
+      "en": "Design a power/cultivation system for this world: realm tiers, ability limits, costs and constraints that actually constrain the plot.",
+      "zh": "帮这个世界设计力量体系：境界划分、能力上限、使用代价与限制规则，并说明如何约束剧情。"
+    },
+    {
+      "en": "Run a consistency check on my novel's existing settings, characters and timeline; list conflicts, plot holes and fixes.",
+      "zh": "对我小说的现有设定、人物和时间线做一次一致性检查，列出设定冲突、逻辑漏洞与修补方案。"
+    }
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://icoolkj.com",
+  "repository": "https://github.com/icoolkj/icoolkj-expert",
+  "contact": "icoolkj@163.com"
 }

@@ -7,6 +7,12 @@ display_name: 故事世界观构建
 display_name_en: Story Worldbuilding
 description_zh: 面向原创小说、玄幻、奇幻、科幻、末世、悬疑、都市异能、短剧、动态漫、AI影视及游戏等内容的故事世界观构建能力。当用户提出世界观设计、故事背景构建、世界运行规则、力量体系、修炼体系、文明体系、势力组织、人物档案、人物关系、历史时间线、世界设定集或设定一致性检查时使用。负责将零散创意转化为结构化、逻辑自洽、可持续扩展和可维护的故事世界体系。不负责代替小说主笔写正文、代替短剧编剧做分集或生成视觉资产。
 description_en: A skill for story worldbuilding for novels, fantasy, sci-fi, apocalyptic, suspense, urban-supernatural, short drama, animated comics, AI film and games. Use when the user requests world design, background construction, world operating rules, power systems, cultivation systems, civilization systems, faction organizations, character files, character relationships, historical timelines, world setting bibles or setting consistency checks. Converts scattered ideas into a structured, self-consistent, extensible and maintainable story world system. Not responsible for writing prose, planning episodes or generating visual assets.
+author: icoolkj
+license: CC-BY-NC-SA-4.0
+metadata:
+  homepage: https://icoolkj.com
+  repository: https://github.com/icoolkj/icoolkj-expert
+  contact: icoolkj@163.com
 ---
 
 # S02：故事世界观构建

@@ -7,6 +7,12 @@ display_name: IP商业运营策划
 display_name_en: IP Commercial Operations Planning
 description_zh: 面向原创小说、短剧、漫画、动态漫、动画、影视、游戏及 AI 生成内容 IP 的商业策划与运营能力。当用户提出 IP 商业价值诊断、市场与竞品分析、目标用户定位、品牌定位、商业模式设计、内容发行与渠道规划、内容营销、粉丝社群运营、IP 授权与衍生开发、品牌联名与商务合作、商业计划书、运营预算与收益模型、运营数据复盘、IP 长期商业路线图等需求时使用。以“先诊断、再策划、后验证”的方式输出可执行、可验证、逐条标注证据等级的商业运营方案。不负责小说正文与剧本创作、分镜设计、视觉资产制作与故事逻辑审校。
 description_en: A skill for IP commercial planning and operations covering original novels, short dramas, comics, animated comics, animation, film, games and AI-generated content IPs. Use when the user requests IP commercial value diagnosis, market and competitor analysis, target audience positioning, brand positioning, business model design, distribution and channel planning, content marketing, fan community operations, IP licensing and derivative development, brand collaborations, business plans, operation budgets and revenue models, data reviews, or long-term IP commercial roadmaps. Delivers executable, verifiable, evidence-graded commercial plans in a diagnose-plan-validate workflow. Not responsible for novel or script writing, storyboard design, visual asset production, or story logic review.
+author: icoolkj
+license: CC-BY-NC-SA-4.0
+metadata:
+  homepage: https://icoolkj.com
+  repository: https://github.com/icoolkj/icoolkj-expert
+  contact: icoolkj@163.com
 ---
 
 # S10：IP商业运营策划

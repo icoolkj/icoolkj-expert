@@ -89,7 +89,10 @@ icoolkj-expert/
 ```
 
 ## 📜 版权与授权
-作者：icoolkj｜灵启逸梦 · AI创艺坊  
+
+详细说明见 [LICENSE](./LICENSE) 与 [docs/LICENSING.md](./docs/LICENSING.md)。
+作者：icoolkj  
+产品品牌：AI创艺坊；灵启逸梦为独立小说创作笔名。  
 官网：https://icoolkj.com  
 联系：icoolkj@163.com / QQ：594047667  
 

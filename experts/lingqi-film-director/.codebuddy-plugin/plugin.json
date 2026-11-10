@@ -4,7 +4,7 @@
   "description": "Film & video director of LING QI YI MENG original story studio: director-perspective script analysis, director's statement, scene breakdown, professional storyboarding, AI video prompt design and shot continuity management.",
   "author": {
     "name": "灵启逸梦 LING QI YI MENG",
-    "email": "studio@lingqiyimeng.com"
+    "email": "icoolkj@163.com"
   },
   "agents": ["./agents/lingqi-film-director.md"],
 

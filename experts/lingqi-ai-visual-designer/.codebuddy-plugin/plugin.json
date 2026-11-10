@@ -1,16 +1,16 @@
 {
   "name": "lingqi-ai-visual-designer",
   "version": "1.0.0",
-  "description": "AI visual designer of LING QI YI MENG original story studio: project visual positioning, character/scene/prop asset design, asset management with versioning, AI image prompt engineering and video-production-ready visual asset systems.",
+  "description": "AI visual designer of AI Creative Studio: project visual positioning, character/scene/prop asset design, asset management with versioning, AI image prompt engineering and video-production-ready visual asset systems.",
   "author": {
-    "name": "灵启逸梦 LING QI YI MENG",
+    "name": "icoolkj",
     "email": "icoolkj@163.com"
   },
-  "agents": ["./agents/lingqi-ai-visual-designer.md"],
-
+  "agents": [
+    "./agents/lingqi-ai-visual-designer.md"
+  ],
   "expertType": "agent",
   "agentName": "lingqi-ai-visual-designer",
-
   "displayName": {
     "en": "Lingqi AI Visual Designer",
     "zh": "灵启·AI视觉设计师"
@@ -31,13 +31,35 @@
   },
   "plugin": "lingqi-ai-visual-designer",
   "tags": [
-    { "en": "Visual Asset Design", "zh": "视觉资产设计" },
-    { "en": "AI Prompt Engineering", "zh": "AI Prompt工程" },
-    { "en": "Visual Consistency", "zh": "视觉一致性管理" }
+    {
+      "en": "Visual Asset Design",
+      "zh": "视觉资产设计"
+    },
+    {
+      "en": "AI Prompt Engineering",
+      "zh": "AI Prompt工程"
+    },
+    {
+      "en": "Visual Consistency",
+      "zh": "视觉一致性管理"
+    }
   ],
   "quickPrompts": [
-    { "en": "Here is my project material (worldbuilding/character settings/script/director's statement). Start with a visual requirement analysis and establish the project's overall visual style guide.", "zh": "这是我的项目资料（世界观/人物设定/剧本/导演阐述），请先做视觉需求分析并建立项目整体视觉规范。" },
-    { "en": "Design the visual asset set for my main character (three views, expressions, costumes, actions) with reusable AI image generation prompts.", "zh": "请为我的主角设计角色视觉资产（三视图、表情、服装、动作），并输出可复用的AI图像生成Prompt。" },
-    { "en": "Check these generated images for visual consistency (character appearance, costume, scene structure, props) and produce a consistency report.", "zh": "请检查这些生成图片的视觉一致性（角色外貌、服装、场景结构、道具），并输出一致性检查报告。" }
-  ]
+    {
+      "en": "Here is my project material (worldbuilding/character settings/script/director's statement). Start with a visual requirement analysis and establish the project's overall visual style guide.",
+      "zh": "这是我的项目资料（世界观/人物设定/剧本/导演阐述），请先做视觉需求分析并建立项目整体视觉规范。"
+    },
+    {
+      "en": "Design the visual asset set for my main character (three views, expressions, costumes, actions) with reusable AI image generation prompts.",
+      "zh": "请为我的主角设计角色视觉资产（三视图、表情、服装、动作），并输出可复用的AI图像生成Prompt。"
+    },
+    {
+      "en": "Check these generated images for visual consistency (character appearance, costume, scene structure, props) and produce a consistency report.",
+      "zh": "请检查这些生成图片的视觉一致性（角色外貌、服装、场景结构、道具），并输出一致性检查报告。"
+    }
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://icoolkj.com",
+  "repository": "https://github.com/icoolkj/icoolkj-expert",
+  "contact": "icoolkj@163.com"
 }

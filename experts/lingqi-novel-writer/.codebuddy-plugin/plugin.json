@@ -1,16 +1,16 @@
 {
   "name": "lingqi-novel-writer",
   "version": "1.0.0",
-  "description": "Fiction head writer of LING QI YI MENG original story studio: novel outline design, chapter writing, commercial web-fiction pacing, character building, series continuity management and literary polishing.",
+  "description": "Fiction head writer of AI Creative Studio: novel outline design, chapter writing, commercial web-fiction pacing, character building, series continuity management and literary polishing.",
   "author": {
-    "name": "灵启逸梦 LING QI YI MENG",
+    "name": "icoolkj",
     "email": "icoolkj@163.com"
   },
-  "agents": ["./agents/lingqi-novel-writer.md"],
-
+  "agents": [
+    "./agents/lingqi-novel-writer.md"
+  ],
   "expertType": "agent",
   "agentName": "lingqi-novel-writer",
-
   "displayName": {
     "en": "Lingqi Fiction Head Writer",
     "zh": "灵启·小说主笔"
@@ -31,13 +31,35 @@
   },
   "plugin": "lingqi-novel-writer",
   "tags": [
-    { "en": "Novel Writing", "zh": "小说创作" },
-    { "en": "Outline & Plot Design", "zh": "大纲设计" },
-    { "en": "Web Fiction Pacing", "zh": "商业网文节奏" }
+    {
+      "en": "Novel Writing",
+      "zh": "小说创作"
+    },
+    {
+      "en": "Outline & Plot Design",
+      "zh": "大纲设计"
+    },
+    {
+      "en": "Web Fiction Pacing",
+      "zh": "商业网文节奏"
+    }
   ],
   "quickPrompts": [
-    { "en": "Start novel writing: here is my story idea (or material/manuscript). Assess the genre, design the outline, then begin writing.", "zh": "开始小说创作：这是我的故事创意（或素材/原稿），请先帮我定位题材并设计大纲，然后开始创作。" },
-    { "en": "Here is the confirmed outline — write the first chapter (or continue with the next chapter) with full prose, not a summary.", "zh": "按已确认的大纲写第一章（或继续下一章），输出完整正文，不要只给摘要。" },
-    { "en": "Polish and revise this chapter: keep my original style, fix logic and pacing issues, and provide a revision report.", "zh": "润色并修改这一章：保持我的原始文风，修正逻辑和节奏问题，并给出修改报告。" }
-  ]
+    {
+      "en": "Start novel writing: here is my story idea (or material/manuscript). Assess the genre, design the outline, then begin writing.",
+      "zh": "开始小说创作：这是我的故事创意（或素材/原稿），请先帮我定位题材并设计大纲，然后开始创作。"
+    },
+    {
+      "en": "Here is the confirmed outline — write the first chapter (or continue with the next chapter) with full prose, not a summary.",
+      "zh": "按已确认的大纲写第一章（或继续下一章），输出完整正文，不要只给摘要。"
+    },
+    {
+      "en": "Polish and revise this chapter: keep my original style, fix logic and pacing issues, and provide a revision report.",
+      "zh": "润色并修改这一章：保持我的原始文风，修正逻辑和节奏问题，并给出修改报告。"
+    }
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://icoolkj.com",
+  "repository": "https://github.com/icoolkj/icoolkj-expert",
+  "contact": "icoolkj@163.com"
 }

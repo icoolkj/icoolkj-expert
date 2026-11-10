@@ -8,6 +8,12 @@ display_name: 故事逻辑与连续性审校
 display_name_en: Story Logic and Continuity Review
 description_zh: 对小说、短剧剧本、影视分镜及相关创作资料进行故事逻辑、人物动机、世界规则、时间线、人物状态、信息边界、伏笔、空间道具和跨媒介连续性审校，定位问题证据，评估严重程度，提出修复方案并执行复审。当用户提出检查故事逻辑、审核逻辑漏洞、检查前后矛盾、检查人物行为是否合理、检查时间线、检查伏笔回收、检查人物是否知道不该知道的信息、检查道具与场景连续性、检查小说改编剧本是否偏离原作、或对修改稿做复审时使用。
 description_en: A skill that reviews story logic and continuity for novels, short-drama scripts, film storyboards and related creative materials. Locates problem evidence, assesses severity, proposes fixes and performs re-review across character motivation, world rules, timelines, character states, information boundaries, foreshadowing, props and spaces, and cross-media continuity. Use when the user asks to check story logic, audit plot holes, verify character behavior, check timelines or foreshadowing payoff, verify characters do not know what they should not know, check prop and scene continuity, verify adaptations stay faithful to the source, or re-review revised drafts.
+author: icoolkj
+license: CC-BY-NC-SA-4.0
+metadata:
+  homepage: https://icoolkj.com
+  repository: https://github.com/icoolkj/icoolkj-expert
+  contact: icoolkj@163.com
 ---
 
 # 故事逻辑与连续性审校（S09）

@@ -1,16 +1,16 @@
 {
   "name": "lingqi-chief-editor",
   "version": "1.0.0",
-  "description": "Chief editorial planner for LING QI YI MENG original story studio:题材定位、故事架构、跨媒介开发路径与创作团队任务书。",
+  "description": "Chief editorial planner for AI Creative Studio:题材定位、故事架构、跨媒介开发路径与创作团队任务书。",
   "author": {
-    "name": "灵启逸梦 LING QI YI MENG",
+    "name": "icoolkj",
     "email": "icoolkj@163.com"
   },
-  "agents": ["./agents/lingqi-chief-editor.md"],
-
+  "agents": [
+    "./agents/lingqi-chief-editor.md"
+  ],
   "expertType": "agent",
   "agentName": "lingqi-chief-editor",
-
   "displayName": {
     "en": "Lingqi Chief Editorial Planner",
     "zh": "灵启·总编策划官"
@@ -31,13 +31,35 @@
   },
   "plugin": "lingqi-chief-editor",
   "tags": [
-    { "en": "Original Story Planning", "zh": "原创故事策划" },
-    { "en": "Short Drama & IP Development", "zh": "短剧与IP开发" },
-    { "en": "Cross-media Narrative", "zh": "跨媒介叙事" }
+    {
+      "en": "Original Story Planning",
+      "zh": "原创故事策划"
+    },
+    {
+      "en": "Short Drama & IP Development",
+      "zh": "短剧与IP开发"
+    },
+    {
+      "en": "Cross-media Narrative",
+      "zh": "跨媒介叙事"
+    }
   ],
   "quickPrompts": [
-    { "en": "I have a story idea (or a manuscript/script) — help me assess its genre positioning, core selling points and the best development path.", "zh": "我手上有个故事想法（或一份原稿/剧本），帮我判断题材定位、核心卖点和最合适的开发路径。" },
-    { "en": "Do a chief-editor-level read of this manuscript: point out structural problems and give an executable revision plan.", "zh": "请对这份小说原稿做一次总编级审读，指出结构问题并给出可执行的修改方案。" },
-    { "en": "Plan the character relationships, core conflict and main storyline for this story, then draft briefs for the writing team.", "zh": "帮我规划这个故事的人物关系、核心冲突和主线结构，并给创作团队出任务书。" }
-  ]
+    {
+      "en": "I have a story idea (or a manuscript/script) — help me assess its genre positioning, core selling points and the best development path.",
+      "zh": "我手上有个故事想法（或一份原稿/剧本），帮我判断题材定位、核心卖点和最合适的开发路径。"
+    },
+    {
+      "en": "Do a chief-editor-level read of this manuscript: point out structural problems and give an executable revision plan.",
+      "zh": "请对这份小说原稿做一次总编级审读，指出结构问题并给出可执行的修改方案。"
+    },
+    {
+      "en": "Plan the character relationships, core conflict and main storyline for this story, then draft briefs for the writing team.",
+      "zh": "帮我规划这个故事的人物关系、核心冲突和主线结构，并给创作团队出任务书。"
+    }
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://icoolkj.com",
+  "repository": "https://github.com/icoolkj/icoolkj-expert",
+  "contact": "icoolkj@163.com"
 }

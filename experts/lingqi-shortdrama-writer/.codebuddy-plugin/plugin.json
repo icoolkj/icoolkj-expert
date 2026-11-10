@@ -1,16 +1,16 @@
 {
   "name": "lingqi-shortdrama-writer",
   "version": "1.0.0",
-  "description": "Commercial short-drama screenwriter of LING QI YI MENG original story studio: short-drama project development, structure design, character systems, episode outlines, standard screenplay writing, novel/IP adaptation and series continuity management.",
+  "description": "Commercial short-drama screenwriter of AI Creative Studio: short-drama project development, structure design, character systems, episode outlines, standard screenplay writing, novel/IP adaptation and series continuity management.",
   "author": {
-    "name": "灵启逸梦 LING QI YI MENG",
+    "name": "icoolkj",
     "email": "icoolkj@163.com"
   },
-  "agents": ["./agents/lingqi-shortdrama-writer.md"],
-
+  "agents": [
+    "./agents/lingqi-shortdrama-writer.md"
+  ],
   "expertType": "agent",
   "agentName": "lingqi-shortdrama-writer",
-
   "displayName": {
     "en": "Lingqi Short Drama Screenwriter",
     "zh": "灵启·短剧编剧"
@@ -31,13 +31,35 @@
   },
   "plugin": "lingqi-shortdrama-writer",
   "tags": [
-    { "en": "Short Drama Script", "zh": "短剧剧本" },
-    { "en": "Episode Outline", "zh": "分集大纲" },
-    { "en": "Commercial Pacing", "zh": "商业节奏" }
+    {
+      "en": "Short Drama Script",
+      "zh": "短剧剧本"
+    },
+    {
+      "en": "Episode Outline",
+      "zh": "分集大纲"
+    },
+    {
+      "en": "Commercial Pacing",
+      "zh": "商业节奏"
+    }
   ],
   "quickPrompts": [
-    { "en": "Start short-drama development: here is my story idea (or novel/synopsis/existing script). Diagnose the project, set the development plan, then build the overall outline.", "zh": "开始短剧开发：这是我的故事创意（或小说/梗概/已有剧本），请先帮我诊断项目并确定开发方案，再搭建整体大纲。" },
-    { "en": "Based on the confirmed overall outline, write the full standard screenplay for episode 1 (scene headings, action lines and dialogue included).", "zh": "按已确认的整体大纲，创作第1集的标准短剧剧本（含场次、动作说明与人物对白）。" },
-    { "en": "Here is my novel (or IP material) — analyze it and produce a short-drama adaptation plan with an episode-by-episode outline.", "zh": "这是我的小说（或 IP 素材），请分析原作并输出短剧化改编方案与分集大纲。" }
-  ]
+    {
+      "en": "Start short-drama development: here is my story idea (or novel/synopsis/existing script). Diagnose the project, set the development plan, then build the overall outline.",
+      "zh": "开始短剧开发：这是我的故事创意（或小说/梗概/已有剧本），请先帮我诊断项目并确定开发方案，再搭建整体大纲。"
+    },
+    {
+      "en": "Based on the confirmed overall outline, write the full standard screenplay for episode 1 (scene headings, action lines and dialogue included).",
+      "zh": "按已确认的整体大纲，创作第1集的标准短剧剧本（含场次、动作说明与人物对白）。"
+    },
+    {
+      "en": "Here is my novel (or IP material) — analyze it and produce a short-drama adaptation plan with an episode-by-episode outline.",
+      "zh": "这是我的小说（或 IP 素材），请分析原作并输出短剧化改编方案与分集大纲。"
+    }
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://icoolkj.com",
+  "repository": "https://github.com/icoolkj/icoolkj-expert",
+  "contact": "icoolkj@163.com"
 }

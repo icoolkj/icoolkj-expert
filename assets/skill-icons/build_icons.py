@@ -1,4 +1,4 @@
-"""按「灵启逸梦」海报的图形语言，用矢量重绘 12 枚 Skill 小头标。
+"""生成 10 枚正式核心 Skill 图标及 2 枚备用图标，统一采用项目蓝色渐变图形规范。历史参考海报仅作为内部设计记录，不作为商业交付素材。
 
 不做位图抠图：直接生成 SVG，再由本机 Chrome 无头渲染导出透明 PNG。
 用法：
@@ -335,16 +335,16 @@ def build_gallery() -> str:
     return (
         '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
-        '<title>灵启逸梦 · Skill 小头标</title><style>' + GALLERY_CSS + '</style></head><body><div class="wrap">'
-        '<h1>灵启逸梦 · Skill 小头标</h1>'
-        '<p class="lead">按官方海报 12 项核心 Skill 的图形语言矢量重绘。SVG 源文件 + 透明 PNG，任意尺寸清晰。</p>'
+        '<title>AI创艺坊 · Skill 小头标</title><style>' + GALLERY_CSS + '</style></head><body><div class="wrap">'
+        '<h1>AI创艺坊 · Skill 小头标</h1>'
+        '<p class="lead">当前正式产品包含 10 项核心 Skill（S01–S10）；S11、S12 为备用图标，不代表已发布技能。SVG 源文件 + 透明 PNG，任意尺寸清晰。</p>'
         '<p class="meta">64×64 画布 · 蓝色渐变 #57A0FF → #123FCF · 描边 #0E3BB8 · S12 灯泡保留金色强调</p>'
         '<div class="grid">' + "".join(cards) + '</div>'
         '<div class="dark"><h2>深色界面下的透明底效果</h2>'
         '<p>透明 PNG / SVG 无白底残留，深色背景同样干净。</p>'
         '<div class="row">' + cells + '</div></div>'
         '<p class="foot">前 10 枚已同步到 C:\\Users\\Administrator\\.workbuddy\\skills\\ 下各技能目录（icon.svg + icon.png）；'
-        'S11 数据分析、S12 内容策划暂无对应技能，仅存图标库。<br>'
+        'S11 数据分析、S12 内容策划为备用图标，当前暂无对应技能。<br>'
         '改设计请编辑 build_icons.py 的 ICONS 片段后重跑。</p>'
         '</div></body></html>'
     )

@@ -343,7 +343,7 @@ def build_gallery() -> str:
         '<div class="dark"><h2>深色界面下的透明底效果</h2>'
         '<p>透明 PNG / SVG 无白底残留，深色背景同样干净。</p>'
         '<div class="row">' + cells + '</div></div>'
-        '<p class="foot">前 10 枚已同步到 C:\\Users\\Administrator\\.workbuddy\\skills\\ 下各技能目录（icon.svg + icon.png）；'
+        '<p class="foot">S01–S10 已同步到仓库中对应技能目录（icon.svg + icon.png）'
         'S11 数据分析、S12 内容策划为备用图标，当前暂无对应技能。<br>'
         '改设计请编辑 build_icons.py 的 ICONS 片段后重跑。</p>'
         '</div></body></html>'
